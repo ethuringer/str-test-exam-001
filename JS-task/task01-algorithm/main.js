@@ -35,11 +35,23 @@ const cityList = [{
     area: 35
 }];
 
-// Population is lower than population and area is greather than area.
 const cityFilter = (list, population, area) => {
     return null;
 };
 
+const citySorter = (list, key) => {
+    return null;
+};
+
+const citySlicer = (list, limit) => {
+    return null;
+};
+
 if (typeof module !== 'undefined') {
-    module.exports = { cityList, cityFilter };
+    module.exports = { 
+        cityList, 
+        cityFilter,
+        citySorter,
+        citySlicer
+    };
 }

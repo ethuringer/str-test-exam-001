@@ -87,6 +87,17 @@
         // <li class="list-group-item">An item</li>
         const list = cityFilter(cityList, 15, 50);
         console.log(list);
+
+        const ulElement = document.querySelector('ul.list-group');
+        list.forEach( item => {
+            const li = document.createElement('li');
+            li.className = 'list-group-item';
+            li.innerText = item;
+            ulElement.appendChild(li);
+        });
+
+        const l2 = citySorter(cityList, 'name');
+        console.log(l2);
     </script>
 </body>
 
