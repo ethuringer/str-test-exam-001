@@ -1,6 +1,6 @@
 # Gyakorló feladatok
 
-## task01-algorithm
+## JS-task/task01-algorithm
 ### Tesztek
 - Értelmezze a __test__ mappában található teszteket.
 - A munkáját manuálisan is tesztelheti, ha indít egy live-server -t 
