@@ -33,8 +33,9 @@ szerint rendezve növekvő sorrendben.
 - majd annyi elemet ad vissza a rendezett listából, amennyit a második 
 paraméterben meghatároztak.
 
+--------------------------
 ### 4. Feladat
-- Hozzon létre egy Angular alkalmazást (nem kötött a név).
+- Hozzon létre egy Angular alkalmazást tetszőleges helyen (nem kötött a név).
 - Legyen benne három réteg: class -> service -> component.
 - Az élő json szerverről jelenítse meg a termékeket.
 - A szerver elérhetősége: `https://nettuts.hu/jms/<githubname>/products` 
