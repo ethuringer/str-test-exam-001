@@ -8,6 +8,7 @@ az index.html fájlra.
 - Az automata tesztet az `npm test` paranccsal indíthatja.
 
 ### Kezdő lépések
+- Klónozza ezt a repository -t a saját gépére.
 - A VSCode gyökere a JS-task mappa legyen.
 - Telepítse a függőségeket.
 
