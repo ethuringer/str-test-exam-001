@@ -36,16 +36,23 @@ const cityList = [{
 }];
 
 const cityFilter = (list, population, area) => {
-    return null;
+    return list.filter(item => item.population < population && item.area > area).map(item => item.name);
 };
 
 const citySorter = (list, key) => {
-    return null;
-};
+    return list.sort((a, b) => {
+
+        if (typeof (a[key]) === 'number' && typeof (b[key]) === 'number') {
+            return a[key] - b[key];
+          }
+            return a[key].toLowerCase().localeCompare(b[key].toLowerCase());
+        }
+    )};
 
 const citySlicer = (list, limit) => {
-    return null;
+    return citySorter(list, 'name').slice(0, limit);
 };
+
 
 if (typeof module !== 'undefined') {
     module.exports = { 
